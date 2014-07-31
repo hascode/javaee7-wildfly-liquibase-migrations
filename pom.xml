@@ -27,6 +27,11 @@
 			<artifactId>liquibase-core</artifactId>
 			<version>3.2.2</version>
 		</dependency>
+		<dependency>
+			<groupId>com.mattbertolini</groupId>
+			<artifactId>liquibase-slf4j</artifactId>
+			<version>1.2.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -84,4 +89,5 @@
 			</plugin>
 		</plugins>
 	</build>
+	<url>http://www.hascode.com/</url>
 </project>
