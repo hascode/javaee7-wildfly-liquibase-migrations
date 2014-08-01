@@ -26,7 +26,7 @@ public class InitializerBean {
 	private static final String STAGE = "development";
 	private static final String CHANGELOG_FILE = "liquibase/db.changelog.xml";
 
-	@Resource(name = "jboss/datasources/ExampleDS")
+	@Resource
 	private DataSource ds;
 
 	@PostConstruct
